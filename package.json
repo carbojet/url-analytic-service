@@ -1,0 +1,26 @@
+{
+  "name": "url-analytic-service",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/carbojet/url-analytic-service.git\""
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "microservice",
+    "url-redirection",
+    "docker-compose"
+  ],
+  "dependencies": {
+    "ioredis": "^5.8.0",
+    "pg": "^8.16.3"
+  }
+}

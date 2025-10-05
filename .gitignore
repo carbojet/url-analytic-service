@@ -1,0 +1,17 @@
+Dependencies
+/node_modules
+
+Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+Docker files
+*.log
+*.env
+
+Ignore the persistent PostgreSQL data volume
+postgres_data/
+
+Environment variables
+.env
